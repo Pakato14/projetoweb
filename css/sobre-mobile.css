@@ -1,6 +1,9 @@
 .container{
   width: 96%;
 }
+.container:after {
+  clear: both;
+}
 header h1{
   text-align: center;
 }
